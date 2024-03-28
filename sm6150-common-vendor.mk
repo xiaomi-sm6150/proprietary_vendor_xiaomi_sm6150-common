@@ -263,6 +263,8 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libsdmextension \
     libsdsprpc \
+    libsecureui \
+    libsecureui_svcsock \
     libsoc_helper \
     libssd \
     libsystem_health_mon \

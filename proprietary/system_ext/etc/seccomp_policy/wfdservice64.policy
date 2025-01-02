@@ -84,3 +84,6 @@ epoll_create1: 1
 epoll_ctl: 1
 recvfrom: 1
 epoll_pwait: 1
+umask: 1
+ioprio_set: 1
+wait4: 1

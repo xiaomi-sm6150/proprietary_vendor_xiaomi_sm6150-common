@@ -16,13 +16,13 @@ service wfdservice64 /system_ext/bin/wfdservice64
     oneshot
 
 on property:vendor.wfdservice=enable
-    start wfdservice
+    start wfdservice64
 
 on property:vendor.wfdservice64=enable
     start wfdservice64
 
 on property:vendor.wfdservice=disable
-    stop wfdservice
+    stop wfdservice64
 
 on property:vendor.wfdservice64=disable
     stop wfdservice64

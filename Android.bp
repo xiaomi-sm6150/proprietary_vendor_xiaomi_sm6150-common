@@ -6004,6 +6004,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.secure_element@1.0",
                 "android.hardware.secure_element@1.1",
                 "android.hardware.secure_element@1.2",
+                "vendor.qti.hardware.radio.qcriNvOpt@1.0",
                 "vendor.qti.hardware.radio.internal.deviceinfo@1.0",
                 "libdsutils",
                 "libcutils",

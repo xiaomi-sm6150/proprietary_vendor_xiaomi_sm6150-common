@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
     <!--
-        Copyright (C) 2012 - 2021 Qualcomm Technologies, Inc.
+        Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
         All Rights Reserved.
         Confidential and Proprietary - Qualcomm Technologies, Inc.
     -->
@@ -278,9 +278,20 @@
                     <Wifi>0</Wifi>
                     <NoSP>0</NoSP>
                 </HIDInputPaths>
+                <!--  Supported HIDC input events  -->
+                <CustomHIDCInputPaths>
+                    <Infrared>0</Infrared>
+                    <USB>3</USB>
+                    <BT>0</BT>
+                    <Zigbee>0</Zigbee>
+                    <Wifi>0</Wifi>
+                    <NoSP>0</NoSP>
+                </CustomHIDCInputPaths>
             </InputEvents>
             <!--  TCP port on which UIBC connection established -->
             <TcpPort>4321</TcpPort>
+            <!-- 0/1 - support Custome HIDC or not -->
+            <CustomAppUIBCSupport>0</CustomAppUIBCSupport>
         </UIBC>
     </Capability>
 

@@ -9647,7 +9647,7 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.wifidisplaysession@1.0",
                 "vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk",
                 "libbinder_ndk",
-                "android.hardware.common-V2-ndk_platform",
+                "android.hardware.common-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
